@@ -19,7 +19,7 @@ if (!file.exists("household_power_consumption.txt")){
 }
 
 
-##### LOAD DATASET AND FILTER FOR 1 and 2 febr 2017 #####
+##### LOAD DATASET AND FILTER FOR 1 and 2 febr 2007 #####
 # only read in 70000 rows as we are only interested in 1/2 febr 2007 (and dataset is very large)
 consumption <- read.csv("household_power_consumption.txt", sep=";", na.strings="?", nrows=70000) 
 
